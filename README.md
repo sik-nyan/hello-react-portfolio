@@ -9,8 +9,3 @@
 - Vite
 - JavaScript (ES6)
 - HTML/CSS
-
-## 開発コマンド
-
-```bash
-npm run dev
