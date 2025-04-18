@@ -3,11 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function CountDisp({count, onInclement, onReset}){
+function CountDisp({count, onInclement, onDeclement, onReset}){
   return (
     <div>
       <h2>カウント：{count}</h2>
       <button onClick={onInclement}>+1</button>
+       
+      <button onClick={onDeclement}>-1</button>
+       
       <button onClick={onReset}>リセット</button>
     </div>
   );
@@ -19,6 +22,8 @@ function App() {
   const [count, setCount] = useState(0);
   // インクリメント処理
   const handleInclement = () => setCount(count + 1);
+  // デクリメント処理
+  const handleDeclement = () => setCount(count - 1);
   // リセット処理
   const handleReset = () => setCount(0);
 
@@ -29,6 +34,7 @@ function App() {
       <CountDisp
         count={count}
         onInclement={handleInclement}
+        onDeclement={handleDeclement}
         onReset={handleReset}      
       />
     </div>
