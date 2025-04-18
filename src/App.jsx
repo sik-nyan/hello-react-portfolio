@@ -2,19 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+// カウントアップ・ダウン処理
+import CountDisp from './components/CountDisp';
 
-function CountDisp({count, onInclement, onDeclement, onReset}){
-  return (
-    <div>
-      <h2>カウント：{count}</h2>
-      <button onClick={onInclement}>+1</button>
-       
-      <button onClick={onDeclement}>-1</button>
-       
-      <button onClick={onReset}>リセット</button>
-    </div>
-  );
-}
 
 // 親要素
 function App() {
