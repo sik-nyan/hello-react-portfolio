@@ -7,6 +7,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter basename="/hello-react-portfolio">
       <App />
-    <BrowserRouter/>
+    </BrowserRouter>
   </StrictMode>,
 )
