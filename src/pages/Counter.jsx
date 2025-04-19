@@ -3,6 +3,8 @@ import { useState } from 'react';
 import CountDisp from '../components/CountDisp';
 import { useNavigate } from 'react-router-dom'; // ← 追加！
 import '../index.css'
+import '../Pages.css';
+
 
 function Counter() {
   const [count, setCount] = useState(0);

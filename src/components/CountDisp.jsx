@@ -1,4 +1,6 @@
 // src/components/CountDisp.jsx
+import '../Pages.css';
+
 
 function CountDisp({count, onInclement, onDeclement, onReset}){
     return (
