@@ -24,21 +24,41 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  text-align : center;
-
-}
-
-div {
-  text-align : center;
+  background-color: #242424;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* 中央寄せ */
+  align-items: start;
+  padding: 1rem;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.container {
+  max-width: 800px; /* 最大幅を設定 */
+  width: 100%;
+  margin: 0 auto;
+  text-align: left; /* テキスト左寄せ */
+}
+
+.container > * + * {
+  margin-top: 1rem; /* container内の２つ目以降要素の間に縦の余白 */
+}
+
+p, li {
+  text-align: left;
+}
+
+/* モバイル向け微調整（必要に応じて） */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 1rem;
+  }
 }
 
 button {

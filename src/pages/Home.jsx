@@ -5,7 +5,7 @@ import '../Pages.css';
 
 function Home() {
   return (
-    <div>
+    <div className="container">
       <h1>React 練習ページ集</h1>
       <p>スキルアップのためのReact練習用リポジトリです。<br/>
         将来的に自社開発を目指しており、学んだことをGitHubにまとめています。</p>

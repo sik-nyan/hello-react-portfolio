@@ -16,7 +16,7 @@ function Counter() {
   const navigate = useNavigate(); // ← フックでナビゲーター取得！
 
   return (
-    <div>
+    <div className="container">
       <h1>カウンター練習ページ</h1>
       <CountDisp
         count={count}

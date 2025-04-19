@@ -16,7 +16,7 @@ function TodoList () {
   } = useTodo(); // ← ここも useTodo() に修正！
 
   return (
-    <div>
+    <div className="container">
       <h1>TodoList練習ページ</h1>
       <input
         type="text"
