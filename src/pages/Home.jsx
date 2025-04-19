@@ -12,6 +12,7 @@ function Home() {
       <ul>
         <li><Link to="/counter">カウンター練習</Link></li>
         <li><Link to="/todo">ToDoList練習</Link></li>
+        <li><Link to="/inputText">リアルタイム文字カウンター</Link></li>
         {/* 今後ここにどんどん追加できる！ */}
       </ul>
     </div>
