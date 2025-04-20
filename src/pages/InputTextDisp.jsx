@@ -9,6 +9,7 @@ function InputTextDisp () {
     // 戻るボタン用
     const navigate = useNavigate();
 
+    //カスタムフック宣言
     const {
         inputText,
         inputCnt,

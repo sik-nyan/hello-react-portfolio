@@ -10,13 +10,13 @@ function useInputText(){
         const value = e.target.value;
         setInputText(value);
         
-
         // 日本語などの正確な文字数カウント
         const segmenterJa = new Intl.Segmenter('ja-JP', { granularity: 'grapheme' });
         const segments = segmenterJa.segment(value);
         setInput(Array.from(segments).length);
     }
 
+    // 変数を返す
     return {
         inputText,
         inputCnt,
