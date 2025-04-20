@@ -10,6 +10,7 @@ const basename = import.meta.env.MODE === 'production' ? '/hello-react-portfolio
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter basename={basename}>
+      {/* ここでルーティングされたページが表示される */}
       <App />
     </BrowserRouter>
   </StrictMode>
