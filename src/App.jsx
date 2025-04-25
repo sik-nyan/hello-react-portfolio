@@ -4,6 +4,7 @@ import Counter from './pages/Counter';
 import TodoList from './pages/TodoList';
 import InputTextDisp from './pages/InputTextDisp';
 import CountdownTimer from './pages/CountdownTimerDisp';
+import String from './pages/String';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route path="/todo" element={<TodoList />} />
       <Route path="/inputText" element={<InputTextDisp />} />
       <Route path="/countdownTimer" element={<CountdownTimer />} />
+      <Route path="/string" element={<String />} />
     </Routes>
   );
 }

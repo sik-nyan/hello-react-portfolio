@@ -22,7 +22,7 @@ function CountdownTimer() {
         let timer;
 
         // setIntervalで秒数を1ずつ減らす
-        if (isRunning && seconds > 0){
+        if (isRunning && timer > 0){
             timer = setInterval(() => {
                 setSeconds(prev => prev - 1);// 前の状態の数字から１引く
                 
