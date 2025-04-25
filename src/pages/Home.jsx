@@ -15,6 +15,7 @@ function Home() {
         <li><Link to="/inputText">リアルタイム文字カウンター</Link></li>
         <li><Link to="/countdownTimer">カウントダウンタイマー</Link></li>
         <li><Link to="/string">文字を表示</Link></li>
+        <li><Link to="/inputTextDisp">入力文字をリアルタイム表示</Link></li>
         {/* 今後ここにどんどん追加 */}
       </ul>
     </div>
